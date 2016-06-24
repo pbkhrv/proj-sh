@@ -46,7 +46,7 @@ I like to prepend all of my source code or project directories with sequential n
 
 proj/projd can also cd into project subdirectories. All you have to do is separate the project directory pattern from the subdirectory pattern with a '/', like so:
 
-`projd pers blo / ima face` returns /Users/peter/proj/08-*pers*onal-*blo*g*/ima*ges/my-*face*.png (emphasis mine)
+`projd pers blo / ima face` returns /Users/peter/proj/08-**pers**onal-**blo**g**/ima**ges/my-**face**.png (emphasis mine)
 
 # Installation: it's just a shell script
 
