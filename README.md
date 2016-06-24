@@ -44,6 +44,10 @@ I like to prepend all of my source code or project directories with sequential n
 
 * Use `projd my lifes work` to `echo` the name of the most recently modified directory that matches `*my*lifes*work*`. This is good for things like `cp my-face.png $(projd pers blog)/images`
 
+proj/projd can also cd into project subdirectories. All you have to do is separate the project directory pattern from the subdirectory pattern with a '/', like so:
+
+`projd pers blo / ima face` returns /Users/peter/proj/08-*pers*onal-*blo*g*/ima*ges/my-*face*.png (emphasis mine)
+
 # Installation: it's just a shell script
 
 0. Clone this repo
@@ -59,10 +63,10 @@ proj 74            => ls ~/proj/*74*
 proj pers blog     => ls ~/proj/*pers*blog*
 proj supe secr pro => ls ~/proj/*supe*secr*proj*
 ```
+```
+proj pers blo / ima face  =>  /Users/peter/proj/08-personal-blog/images/my-face.png
+```
 
-# And then?
+# Now what?
 
-Dunno, use it many times a day while thinking of ways to make it better somehow?
-
-For one thing, it'd be nice to fuzzy-match projects subdirectories as well. Again, fzf does this already, so maybe use that instead. I'm thinking of making something like `proj pers blog / ima face png` match `~/proj/08-personal-blog/images/my-face.png`.
-
+Dunno.. Install it, use it many times a day while thinking of ways to make it better?
