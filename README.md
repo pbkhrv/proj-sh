@@ -1,6 +1,6 @@
 # proj-sh
 
-"Why type the full name of the source code directory that you are trying 'cd' into?"
+"Why type the full name of the source code directory that you are trying to 'cd' into when you can make your shell do the work?"
 
 # Yes, why?
 
