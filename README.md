@@ -8,7 +8,9 @@ How many times do you have to hit 'tab' while stumbling around your source code 
 
 # Other better ways
 
-Some people that are smarter than me use [fzf](https://github.com/junegunn/fzf). It's awesome and I totally recommend it. Too bad that I've only recently discovered it, and not before forming another habit that stuck.
+If you use zsh, there's [wd](https://github.com/mfaerevaag/wd). It's nice, but having to explicitly define "warp points" for each directory seems a bit redundant, plus you run into the issue of having to memorize each warp point name. It's great when you have, like, 5 directories that you jump between, but not if you have two dozen plus. I tried it for a while, managed to forget some of the warp point names and it gradually become less and less useful.
+
+Some people that are smarter than me use [fzf](https://github.com/junegunn/fzf). It's awesome and I recommend you try it if you haven't already. Too bad that I've only recently discovered it, and not before forming another habit that stuck.
 
 # My own better way
 
@@ -67,6 +69,11 @@ proj supe secr pro => ls ~/proj/*supe*secr*proj*
 proj pers blo / ima face  =>  /Users/peter/proj/08-personal-blog/images/my-face.png
 ```
 
+# Other tricks
+
+If you are bent on keeping project directories grouped for whatever reason, you can make copies of the `proj` function with different names. Call them `work` and `fun`, for instance. Or give them names that correspond to names of your clients, and change the rood directories accordingly.
+
 # Now what?
 
 Dunno.. Install it, use it many times a day while thinking of ways to make it better?
+
