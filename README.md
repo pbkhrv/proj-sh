@@ -30,13 +30,13 @@ Let's illustrate. Imagine you have the following projects:
 ├── 07-proj-sh
 └── 08-personal-blog
 ```
-(oh, and BTW, you should definitely `brew install tree`. That's where the output above came from.)
+(oh, and BTW, you should definitely `brew install tree`. That's where the above output came from.)
 
-Instead of `cd ~/sample-pr<tab>oj/06<tab>-poc-backend`, do `proj 06`.
+Instead of `cd ~/proj/06<tab>-poc-backend`, do `proj 06`.
 
 Say you need to work on your personal blog. There are two directories with 'blog' in their names. That's fine, just give `proj` a way to disambiguate: `proj pers blog`.
 
-I like to prepend all of my source code or project directories with sequential numbers. I found that sometimes it's easier to remember them that way. Right this second, for work, I'm usually in one of projects 37, 47, 74 or 'storefront', for instance. The point is to give yourself more ways to remember where your code lives, instead of forcing yourself to memorize "the one true name" for everything. Try it.
+I like to prepend all of my source code or project directories with sequential numbers. I found that sometimes it's easier to remember them that way. Right this second, for work, I'm usually in one of projects 37, 47, 74 or 'storefront', for instance. I also remember each one of those by a couple of unique keywords that I sometimes use if I space out on the number. The point is to give yourself more ways to remember where your code lives, instead of forcing yourself to memorize "the one true name" for everything. Try it.
 
 # Usage: nothing to it
 
