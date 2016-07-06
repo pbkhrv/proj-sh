@@ -71,7 +71,7 @@ proj pers blo / ima face  =>  /Users/peter/proj/08-personal-blog/images/my-face.
 
 # Other tricks
 
-If you are bent on keeping project directories grouped for whatever reason, you can make copies of the `proj` function with different names. Call them `work` and `fun`, for instance. Or give them names that correspond to names of your clients, and change the rood directories accordingly.
+If you are bent on keeping project directories grouped for whatever reason, you can make copies of the `proj` function with different names. Call them `work` and `fun`, for instance. Or give them names that correspond to names of your clients, and change the root directories accordingly.
 
 # Now what?
 
