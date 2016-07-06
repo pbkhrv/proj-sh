@@ -24,7 +24,7 @@ function projd() {
 # cd into the matching directory with the most recent modification time
 function proj() {
   if [ -z "${1}" ] ; then
-    cd ~/proj
+    cd $PROJ_BASE_DIR
     ls -tcr1 # sort by change time in asc order, display in one column
   else
     OFS=$'\n' _proj_ls $*
