@@ -28,7 +28,7 @@ function proj() {
     ls -tcr1 # sort by change time in asc order, display in one column
   else
     OFS=$'\n' _proj_ls $*
-    cd $(projd $*)
+    cd "$(projd $*)"
   fi
 }
 
